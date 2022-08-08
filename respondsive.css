@@ -21,6 +21,7 @@
         width: 100%;
         position: relative;
         margin-bottom: 10px;
+        display: block !important;
     }
 
     .mobilde_header_search input{

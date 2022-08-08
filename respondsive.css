@@ -17,4 +17,33 @@
     .nav{
         display: none !important;
     }
+    .mobilde_header_search{
+        width: 100%;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .mobilde_header_search input{
+        height: 40px;
+        width: 100%;
+        font-size: 14px;
+        color: black;
+        border: none;
+        background-color: whitesmoke;
+        outline: none;
+       
+    }
+    .mobilde_header_search:hover{
+        outline: none;
+    }
+    .mobilde_header_search .btn{
+        height: 40px;
+        width: 40px;
+        border: none;
+        background-color: whitesmoke;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        font-size: 18px;
+    }
 }

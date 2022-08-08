@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0' name='viewport' />
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-    
+        <link rel="stylesheet" href="respondsive.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
         <link rel="stylesheet" href="style.css">
@@ -23,7 +23,7 @@
                     <button class="btn"><i class="fas fa-search"></i></button>
                 </div>
                 <div class="header_icon">
-                    <a href=""><i class="fas fa-user-circle"></i></a>
+                    <a href="./account.html"><i class="fas fa-user-circle"></i></a>
                     <a href="#"><span><i class="fas fa-search tab_search" ></i> </span></a>
                    <div class="search2">
                     <div class="form_search">
@@ -38,25 +38,33 @@
                     </div>
                 </div>
                     <a href="#"><span><i class="fas fa-shopping-bag tab_cart"></i></span></a>
+                    <span class="span_number-item">0</span>
+                    <a href="#"><i class="fas fa-bars"></i></a>
                     
                 </div>
+                
+                
+            </div>
+            <div class="mobilde_header_search ">
+                <input type="text" placeholder="Tìm kiếm sản phẩm..." >
+                <button class="btn"><i class="fas fa-search"></i></button>
             </div>
             
             <div class="nav">
                 
                 <div class="logo nav_logo hidden"><img src="images/LOGO-360-DUNG-TAM-THOI-MAU-DEN-05.png" alt=""></div> 
                 <ul class="nav_list">
-                    <li class="nav_item">Giới thiệu</li>
+                    <li class="nav_item"><a href="./about.html">Giới Thiệu</a></li>
                     <li class="nav_item san_pham">
-                        Sản phẩm
+                        <a href="./item.html">Sản phẩm</a>
                         <div class="sub_nav">
                             <div class="container-fluid">
                             
                                 <div class="row">
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-3 col-xs-6">
                                         <div class="sub-nav">
                                             <div>
-                                                <h3>Áo nam </h3>
+                                               <a href="./item.html"> <h3>Áo nam </h3></a>
                                                 <div class="sub-nav-item">
                                                     <ul>
                                                         <li><i class="fas fa-angle-right"> </i>Áo phông</li>
@@ -71,10 +79,10 @@
                                                 
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-3 col-xs-6">
                                         <div class="sub-nav">
                                             <div>
-                                                <h3>Quần âu </h3>
+                                                <a href="./item.html">Quần âu</a>
                                                 <div class="sub-nav-item">
                                                     <ul>
                                                         <li><i class="fas fa-angle-right"> </i>Áo phông</li>
@@ -89,10 +97,10 @@
                                                 
                                         </div>
                                     </div>        
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-3 col-xs-6">
                                         <div class="sub-nav">
                                             <div>
-                                                <h3>Phụ kiện nam </h3>
+                                                <a href="./item.html"> <h3>Áo nam </h3></a>
                                                 <div class="sub-nav-item">
                                                     <ul>
                                                         <li><i class="fas fa-angle-right"> </i>Áo phông</li>
@@ -107,10 +115,10 @@
                                                 
                                         </div>
                                     </div>        
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-3 col-xs-6">
                                         <div class="sub-nav">
                                             <div>
-                                                <h3>Giày nam </h3>
+                                                <a href="./item.html">Giày nam</a>
                                                 <div class="sub-nav-item">
                                                     <ul>
                                                         <li><i class="fas fa-angle-right"> </i>Áo phông</li>
@@ -187,6 +195,34 @@
                 </div>
             </div>
         </header>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="images/Web.jpg" style="width:100%">
+              
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="images/Web-1.jpg" style="width:100%">
+              
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="images/WEB-1 (1).jpg" style="width:100%">
+              
+            </div>
+          <!-- The dots/circles -->
+          <div style="text-align:center" class="circles">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+       
     </div>
     <div class="container">
         <div class="title">

@@ -485,6 +485,22 @@ h3{
     display: none;
     
 }
+.mobile_nav{ 
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 7777;
+  opacity: 1;
+  visibility: visible;
+  display: none;
+  
+}
+.mobile_nav_icon{
+  display: none;
+}
 .search2 .form_search .form_search-title i{
   font-size: 24px;
   

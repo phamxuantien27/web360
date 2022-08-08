@@ -105,3 +105,18 @@ next.addEventListener('click', () => {
   i=i+1
   
 });
+//moblie nav show
+var tab3 = document.querySelector('.mobile_nav_icon')
+var element3 = document.querySelector(".mobile_nav");
+tab3.addEventListener('click',()=> {   
+    element3.classList.add("active2");
+   
+    
+  })
+
+var close3 =  document.querySelector('.close_search1')
+close3.addEventListener('click', () => {
+
+   element3.classList.remove("active2")
+    
+})

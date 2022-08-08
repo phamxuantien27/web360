@@ -29,9 +29,12 @@ h3{
     padding: 20px 0px 10px 0;
     height: 70px;
 }
-.logo img{
+.logo {
     height:70px ;
-    width: auto
+}
+.logo img{
+  height: 100%;
+  width: auto;
 }
 .header_search{
     width: 755px;
@@ -711,15 +714,11 @@ table{
 }
 
 .top-footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 0;
-  padding: 10px 150px;
+  padding: 10px;
   background-color: #f3f3f3;
-  text-align: center;
+  
 }
 .top-footer .email{
-  text-align: center;
   font-size: 20px;
 }
 .top-footer .email i span{
@@ -728,7 +727,7 @@ table{
   font-weight: 400;
 }
 .top-footer .phone{
-  text-align: center;
+  
   font-size: 20px;
 }
 .top-footer .phone i span{
@@ -737,11 +736,11 @@ table{
   font-weight: 400;
 }
 .top-footer .header_search_1{
-  max-width: 40%;
+  max-width: 90%;
   margin-top: 0;
 }
 .top-footer .header_search_1 input{
-  padding: 20px 20px;
+  
   background-color: white;
 }
 .top-footer .header_search_1 button{

@@ -54,6 +54,9 @@ h3{
 .header_search input:hover{
     outline: none;
 }
+.mobilde_header_search{
+  display: none;
+}
 .header_search .btn{
     height: 55px;
     width: 55px;

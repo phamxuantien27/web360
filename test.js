@@ -1,0 +1,3 @@
+fetch('https://api.msrc.microsoft.com/sug/v2.0/en-US/vulnerability?%24orderBy=cveNumber%20desc&%24filter=(releaseDate%20gt%202022-02-09T00%3A00%3A00%2B07%3A00%20or%20latestRevisionDate%20gt%202022-02-09T00%3A00%3A00%2B07%3A00)%20and%20(releaseDate%20lt%202022-04-05T23%3A59%3A59%2B07%3A00%20or%20latestRevisionDate%20lt%202022-04-05T23%3A59%3A59%2B07%3A00)&fbclid=IwAR1cPvx5Lo8ml4uqUZHO2AdipiTQO8JsBJg3k8_QUpynoE86HSoXKrXP1Wk')
+  .then(response => response.json())
+  .then(data => console.log(data.value));
